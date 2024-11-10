@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distributor Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Distributor Page</h1>
+        <input type="number" id="rice" placeholder="Rice in kgs" required>
+        <input type="number" id="sugar" placeholder="Sugar in kgs" required>
+        <input type="number" id="kerosene" placeholder="Kerosene in kgs" required>
+        <button class="btn" onclick="updateTransaction()">Update</button>
+        <button class="btn" onclick="viewTransactions()">View Transactions</button>
+        <p id="message"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
